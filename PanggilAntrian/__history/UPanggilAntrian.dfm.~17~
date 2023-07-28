@@ -1,0 +1,266 @@
+object Form1: TForm1
+  Left = 1020
+  Top = 500
+  Align = alCustom
+  BorderStyle = bsDialog
+  Caption = 'Panggil Antrian'
+  ClientHeight = 179
+  ClientWidth = 623
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDefaultSizeOnly
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label5: TLabel
+    Left = 280
+    Top = 115
+    Width = 126
+    Height = 18
+    Caption = 'Nomor Resep Obat'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 280
+    Top = 67
+    Width = 106
+    Height = 19
+    Caption = 'Nama Pasien'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lNoResep: TLabel
+    Left = 425
+    Top = 114
+    Width = 22
+    Height = 18
+    Caption = 'Null'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lNamaPasien: TLabel
+    Left = 425
+    Top = 66
+    Width = 32
+    Height = 19
+    Caption = 'Null'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 412
+    Top = 115
+    Width = 5
+    Height = 18
+    Caption = ':'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 412
+    Top = 67
+    Width = 6
+    Height = 19
+    Caption = ':'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 9
+    Top = 70
+    Width = 94
+    Height = 18
+    Caption = 'Nomor Antrian'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 280
+    Top = 139
+    Width = 40
+    Height = 18
+    Caption = 'Resep'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lResep: TLabel
+    Left = 425
+    Top = 138
+    Width = 22
+    Height = 18
+    Caption = 'Null'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 412
+    Top = 139
+    Width = 5
+    Height = 18
+    Caption = ':'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 280
+    Top = 90
+    Width = 89
+    Height = 18
+    Caption = 'Nomor Rawat'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lNoRawat: TLabel
+    Left = 425
+    Top = 90
+    Width = 22
+    Height = 18
+    Caption = 'Null'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 412
+    Top = 91
+    Width = 5
+    Height = 18
+    Caption = ':'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object btnPanggil: TButton
+    Left = 8
+    Top = 121
+    Width = 95
+    Height = 46
+    Caption = 'PANGGIL'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = btnPanggilClick
+  end
+  object btnUlang: TButton
+    Left = 152
+    Top = 121
+    Width = 99
+    Height = 46
+    Caption = 'ULANG'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = btnUlangClick
+  end
+  object eNoAntrian: TEdit
+    Left = 152
+    Top = 66
+    Width = 87
+    Height = 26
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    OnChange = eNoAntrianChange
+  end
+  object RDNonRacik: TRadioButton
+    Left = 8
+    Top = 16
+    Width = 200
+    Height = 17
+    Caption = 'Resep Non Racik'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+    OnClick = RDNonRacikClick
+  end
+  object RDRacik: TRadioButton
+    Left = 214
+    Top = 16
+    Width = 200
+    Height = 17
+    Caption = 'Resep Racik'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    OnClick = RDRacikClick
+  end
+end

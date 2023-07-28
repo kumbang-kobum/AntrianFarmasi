@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/07/01 13:27:09.589.pas,C:\Users\erzawira\Documents\RAD Studio\Projects\Unit1.pas=F:\Antrian_Farmasi\u_antrianfarmasi.pas</Transaction>
+    <Transaction>2023/07/01 13:27:09.589.dfm,C:\Users\erzawira\Documents\RAD Studio\Projects\Unit1.dfm=F:\Antrian_Farmasi\u_antrianfarmasi.dfm</Transaction>
+    <Transaction>2023/07/01 13:27:24.219.dproj,C:\Users\erzawira\Documents\RAD Studio\Projects\Project1.dproj=F:\Antrian_Farmasi\Aplikasi_AntrianFarmasi.dproj</Transaction>
+    <Transaction>2023/07/01 16:03:56.477.pas,F:\Antrian_Farmasi\Unit1.pas=F:\Antrian_Farmasi\dm.pas</Transaction>
+    <Transaction>2023/07/01 16:03:56.477.dfm,F:\Antrian_Farmasi\Unit1.dfm=F:\Antrian_Farmasi\dm.dfm</Transaction>
+    <Transaction>2023/07/01 19:46:59.307.pas,F:\Antrian_Farmasi\Unit2.pas=F:\Antrian_Farmasi\uLaporan.pas</Transaction>
+    <Transaction>2023/07/01 19:46:59.307.dfm,F:\Antrian_Farmasi\Unit2.dfm=F:\Antrian_Farmasi\uLaporan.dfm</Transaction>
+    <Transaction>2023/07/01 22:09:49.704.pas,F:\Antrian_Farmasi\Panggil\Unit2.pas=F:\Antrian_Farmasi\Panggil\uDisplay.pas</Transaction>
+    <Transaction>2023/07/01 22:09:49.704.dfm,F:\Antrian_Farmasi\Panggil\Unit2.dfm=F:\Antrian_Farmasi\Panggil\uDisplay.dfm</Transaction>
+    <Transaction>2023/07/06 15:29:05.404.pas,F:\Antrian_Farmasi\Panggil1\uLaporan.pas=</Transaction>
+    <Transaction>2023/07/06 15:29:05.404.dfm,F:\Antrian_Farmasi\Panggil1\uLaporan.dfm=</Transaction>
+    <Transaction>2023/07/11 21:27:06.531.dproj,F:\Antrian_Farmasi\Panggil\Aplikasi_AntrianFarmasi.dproj=F:\Antrian_Farmasi\PanggilAntrian\AplikasiPanggilAntrian.dproj</Transaction>
+    <Transaction>2023/07/11 21:27:53.809.pas,F:\Antrian_Farmasi\Panggil\dm.pas=F:\Antrian_Farmasi\PanggilAntrian\UDm.pas</Transaction>
+    <Transaction>2023/07/11 21:27:53.809.dfm,F:\Antrian_Farmasi\Panggil\dm.dfm=F:\Antrian_Farmasi\PanggilAntrian\UDm.dfm</Transaction>
+    <Transaction>2023/07/11 21:28:14.688.pas,F:\Antrian_Farmasi\Panggil\uDisplay.pas=F:\Antrian_Farmasi\PanggilAntrian\uDisplay.pas</Transaction>
+    <Transaction>2023/07/11 21:28:14.688.dfm,F:\Antrian_Farmasi\Panggil\uDisplay.dfm=F:\Antrian_Farmasi\PanggilAntrian\uDisplay.dfm</Transaction>
+    <Transaction>2023/07/11 21:28:45.686.pas,F:\Antrian_Farmasi\Panggil\u_antrianfarmasi.pas=F:\Antrian_Farmasi\PanggilAntrian\UPanggilAntrian.pas</Transaction>
+    <Transaction>2023/07/11 21:28:45.686.dfm,F:\Antrian_Farmasi\Panggil\u_antrianfarmasi.dfm=F:\Antrian_Farmasi\PanggilAntrian\UPanggilAntrian.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

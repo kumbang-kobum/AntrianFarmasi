@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/07/01 13:27:09.589.pas,C:\Users\erzawira\Documents\RAD Studio\Projects\Unit1.pas=F:\Antrian_Farmasi\u_antrianfarmasi.pas</Transaction>
+    <Transaction>2023/07/01 13:27:09.589.dfm,C:\Users\erzawira\Documents\RAD Studio\Projects\Unit1.dfm=F:\Antrian_Farmasi\u_antrianfarmasi.dfm</Transaction>
+    <Transaction>2023/07/01 13:27:24.219.dproj,C:\Users\erzawira\Documents\RAD Studio\Projects\Project1.dproj=F:\Antrian_Farmasi\Aplikasi_AntrianFarmasi.dproj</Transaction>
+    <Transaction>2023/07/01 16:03:56.477.pas,F:\Antrian_Farmasi\Unit1.pas=F:\Antrian_Farmasi\dm.pas</Transaction>
+    <Transaction>2023/07/01 16:03:56.477.dfm,F:\Antrian_Farmasi\Unit1.dfm=F:\Antrian_Farmasi\dm.dfm</Transaction>
+    <Transaction>2023/07/01 19:46:59.307.pas,F:\Antrian_Farmasi\Unit2.pas=F:\Antrian_Farmasi\uLaporan.pas</Transaction>
+    <Transaction>2023/07/01 19:46:59.307.dfm,F:\Antrian_Farmasi\Unit2.dfm=F:\Antrian_Farmasi\uLaporan.dfm</Transaction>
+    <Transaction>2023/07/06 14:52:38.057.pas,F:\Antrian_Farmasi\Ambil\u_antrianfarmasi.pas=</Transaction>
+    <Transaction>2023/07/06 14:52:38.057.dfm,F:\Antrian_Farmasi\Ambil\u_antrianfarmasi.dfm=</Transaction>
+    <Transaction>2023/07/06 19:03:10.683.pas,F:\Antrian_Farmasi\Ambil\uAmbilAntrian.pas=F:\Antrian_Farmasi\AmbilAntrian\uAmbilAntrian.pas</Transaction>
+    <Transaction>2023/07/06 19:03:10.683.dfm,F:\Antrian_Farmasi\Ambil\uAmbilAntrian.dfm=F:\Antrian_Farmasi\AmbilAntrian\uAmbilAntrian.dfm</Transaction>
+    <Transaction>2023/07/06 19:03:39.488.dproj,F:\Antrian_Farmasi\Ambil\Aplikasi_AntrianFarmasi.dproj=F:\Antrian_Farmasi\AmbilAntrian\AplikasiAmbilAntrian.dproj</Transaction>
+    <Transaction>2023/07/06 19:05:17.868.pas,F:\Antrian_Farmasi\Ambil\uLaporan.pas=F:\Antrian_Farmasi\AmbilAntrian\uLaporan.pas</Transaction>
+    <Transaction>2023/07/06 19:05:17.868.dfm,F:\Antrian_Farmasi\Ambil\uLaporan.dfm=F:\Antrian_Farmasi\AmbilAntrian\uLaporan.dfm</Transaction>
+    <Transaction>2023/07/06 19:05:32.125.pas,F:\Antrian_Farmasi\Ambil\dm.pas=F:\Antrian_Farmasi\AmbilAntrian\dm.pas</Transaction>
+    <Transaction>2023/07/06 19:05:32.125.dfm,F:\Antrian_Farmasi\Ambil\dm.dfm=F:\Antrian_Farmasi\AmbilAntrian\dm.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,18 @@
+program AplikasiPanggilAntrian;
+
+uses
+  Forms,
+  u_antrianfarmasi in '..\Panggil\u_antrianfarmasi.pas' {Form1},
+  UDm in 'UDm.pas' {fDM: TDataModule},
+  uDisplay in '..\Panggil\uDisplay.pas' {fDisplay};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TfDisplay, fDisplay);
+  Application.CreateForm(TfDM, fDM);
+  Application.Run;
+end.

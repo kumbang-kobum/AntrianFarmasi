@@ -1,0 +1,401 @@
+object fDisplay: TfDisplay
+  Left = 2000
+  Top = 0
+  Caption = 'Display Antrian Apotek'
+  ClientHeight = 710
+  ClientWidth = 1184
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesigned
+  WindowState = wsMaximized
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pBawah: TPanel
+    Left = 0
+    Top = 680
+    Width = 1184
+    Height = 30
+    Align = alBottom
+    BevelOuter = bvNone
+    Color = 419020
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Panel4: TPanel
+    Left = 16
+    Top = 65
+    Width = 832
+    Height = 599
+    Align = alClient
+    BevelOuter = bvNone
+    ParentBackground = False
+    TabOrder = 1
+    object DSVideoWindowEx21: TDSVideoWindowEx2
+      Left = 0
+      Top = 0
+      Width = 832
+      Height = 599
+      AspectRatio = rmLetterBox
+      AutoHideCursor = 0
+      DigitalZoom = 0
+      FilterGraph = FilterGraph
+      ColorControl.Brightness = 750
+      ColorControl.Contrast = 10000
+      ColorControl.Hue = 0
+      ColorControl.Saturation = 10000
+      ColorControl.Sharpness = 5
+      ColorControl.Gamma = 1
+      ColorControl.ColorEnable = True
+      NoScreenSaver = False
+      Color = clBlack
+      Align = alClient
+      object DSTrackBar1: TDSTrackBar
+        Left = 24
+        Top = 6
+        Width = 150
+        Height = 45
+        TabOrder = 0
+        Visible = False
+        FilterGraph = FilterGraph
+        OnTimer = DSTrackBar1Timer
+      end
+    end
+  end
+  object Panel8: TPanel
+    Left = 0
+    Top = 664
+    Width = 1184
+    Height = 16
+    Align = alBottom
+    BevelOuter = bvNone
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -53
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 2
+  end
+  object pKanan: TPanel
+    Left = 864
+    Top = 65
+    Width = 320
+    Height = 599
+    Align = alRight
+    BevelOuter = bvNone
+    TabOrder = 3
+    object Panel7: TPanel
+      Left = 0
+      Top = 321
+      Width = 320
+      Height = 278
+      Align = alClient
+      BevelOuter = bvNone
+      TabOrder = 0
+      object Label1: TLabel
+        Left = 0
+        Top = 0
+        Width = 320
+        Height = 40
+        Align = alTop
+        Alignment = taCenter
+        Caption = 'RACIK'
+        Color = 419020
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWhite
+        Font.Height = -33
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        Transparent = False
+        ExplicitWidth = 108
+      end
+      object Panel3: TPanel
+        Left = 0
+        Top = 128
+        Width = 320
+        Height = 150
+        Align = alBottom
+        BevelOuter = bvNone
+        TabOrder = 0
+        object DBGrid1: TDBGrid
+          Left = 0
+          Top = 0
+          Width = 320
+          Height = 150
+          Align = alClient
+          DataSource = fDM.dsResepRacik
+          DrawingStyle = gdsGradient
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'Tahoma'
+          Font.Style = []
+          Options = [dgTitles, dgColumnResize, dgRowLines, dgTabs, dgRowSelect, dgConfirmDelete, dgCancelOnExit, dgTitleClick, dgTitleHotTrack]
+          ParentFont = False
+          TabOrder = 0
+          TitleFont.Charset = DEFAULT_CHARSET
+          TitleFont.Color = clWindowText
+          TitleFont.Height = -11
+          TitleFont.Name = 'Tahoma'
+          TitleFont.Style = []
+          Columns = <
+            item
+              Alignment = taCenter
+              Expanded = False
+              FieldName = 'no_antrian'
+              Title.Alignment = taCenter
+              Title.Caption = 'NOMOR'
+              Title.Font.Charset = DEFAULT_CHARSET
+              Title.Font.Color = clWindowText
+              Title.Font.Height = -17
+              Title.Font.Name = 'Tahoma'
+              Title.Font.Style = []
+              Width = 100
+              Visible = True
+            end
+            item
+              Expanded = False
+              FieldName = 'nm_pasien'
+              Title.Alignment = taCenter
+              Title.Caption = 'NAMA PASIEN'
+              Title.Font.Charset = DEFAULT_CHARSET
+              Title.Font.Color = clWindowText
+              Title.Font.Height = -17
+              Title.Font.Name = 'Tahoma'
+              Title.Font.Style = []
+              Width = 600
+              Visible = True
+            end>
+        end
+      end
+      object pAntrianRacik: TPanel
+        Left = 0
+        Top = 40
+        Width = 320
+        Height = 88
+        Align = alClient
+        BevelOuter = bvNone
+        Caption = '000'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -93
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 1
+      end
+    end
+    object pKananAtas: TPanel
+      Left = 0
+      Top = 0
+      Width = 320
+      Height = 297
+      Align = alTop
+      BevelOuter = bvNone
+      TabOrder = 1
+      object Label2: TLabel
+        Left = 0
+        Top = 0
+        Width = 320
+        Height = 40
+        Align = alTop
+        Alignment = taCenter
+        Caption = 'NON RACIK'
+        Color = 419020
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWhite
+        Font.Height = -33
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        Transparent = False
+        ExplicitWidth = 193
+      end
+      object Panel10: TPanel
+        Left = 0
+        Top = 147
+        Width = 320
+        Height = 150
+        Align = alBottom
+        BevelOuter = bvNone
+        TabOrder = 0
+        object DBGrid2: TDBGrid
+          Left = 0
+          Top = 0
+          Width = 320
+          Height = 150
+          Align = alClient
+          DataSource = fDM.dsResepNonRacik
+          DrawingStyle = gdsGradient
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'Tahoma'
+          Font.Style = []
+          Options = [dgTitles, dgColumnResize, dgRowLines, dgTabs, dgRowSelect, dgConfirmDelete, dgCancelOnExit, dgTitleClick, dgTitleHotTrack]
+          ParentFont = False
+          TabOrder = 0
+          TitleFont.Charset = DEFAULT_CHARSET
+          TitleFont.Color = clWindowText
+          TitleFont.Height = -11
+          TitleFont.Name = 'Tahoma'
+          TitleFont.Style = []
+          Columns = <
+            item
+              Alignment = taCenter
+              Color = clBtnFace
+              Expanded = False
+              FieldName = 'no_antrian'
+              Title.Alignment = taCenter
+              Title.Caption = 'NOMOR'
+              Title.Font.Charset = DEFAULT_CHARSET
+              Title.Font.Color = clWindowText
+              Title.Font.Height = -17
+              Title.Font.Name = 'Tahoma'
+              Title.Font.Style = []
+              Width = 100
+              Visible = True
+            end
+            item
+              Expanded = False
+              FieldName = 'nm_pasien'
+              Title.Alignment = taCenter
+              Title.Caption = 'NAMA PASIEN'
+              Title.Font.Charset = DEFAULT_CHARSET
+              Title.Font.Color = clWindowText
+              Title.Font.Height = -17
+              Title.Font.Name = 'Tahoma'
+              Title.Font.Style = []
+              Width = 600
+              Visible = True
+            end>
+        end
+      end
+      object pAntrianNonRacik: TPanel
+        Left = 0
+        Top = 40
+        Width = 320
+        Height = 107
+        Align = alClient
+        BevelOuter = bvNone
+        Caption = '000'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -93
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 1
+      end
+    end
+    object Panel2: TPanel
+      Left = 0
+      Top = 297
+      Width = 320
+      Height = 24
+      Align = alTop
+      BevelOuter = bvNone
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -53
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentBackground = False
+      ParentFont = False
+      TabOrder = 2
+    end
+  end
+  object Panel6: TPanel
+    Left = 0
+    Top = 49
+    Width = 1184
+    Height = 16
+    Align = alTop
+    BevelOuter = bvNone
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -53
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 4
+  end
+  object pJudul: TPanel
+    Left = 0
+    Top = 0
+    Width = 1184
+    Height = 49
+    Align = alTop
+    BevelOuter = bvNone
+    Caption = 'ANTRIAN APOTEK'
+    Color = 419020
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -33
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Panel1: TPanel
+    Left = 848
+    Top = 65
+    Width = 16
+    Height = 599
+    Align = alRight
+    BevelOuter = bvNone
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -53
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Panel5: TPanel
+    Left = 0
+    Top = 65
+    Width = 16
+    Height = 599
+    Align = alLeft
+    BevelOuter = bvNone
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -53
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 7
+  end
+  object FilterGraph: TFilterGraph
+    GraphEdit = False
+    LinearVolume = False
+    Left = 8
+    Top = 8
+  end
+  object OpenDialog: TOpenDialog
+    Left = 8
+    Top = 72
+  end
+end
